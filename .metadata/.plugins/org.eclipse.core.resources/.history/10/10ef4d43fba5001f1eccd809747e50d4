@@ -1,0 +1,12 @@
+package Races;
+
+import java.util.List;
+
+public class ElfeSylvestre extends Elfe{
+	List<Caractéristique> listeCaractéristiques;
+	public ElfeSylvestre(){
+		listeCaractéristiques = super.caractéristiques;
+		super.setNom("Elfe sylvestre");
+		
+	}
+}
