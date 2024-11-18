@@ -1,0 +1,26 @@
+package Classes;
+
+import java.util.Date;
+
+
+public class Executive extends Employee {
+	float biannualSalary;
+	float bonus;
+	Date hiringDate;
+	
+	Executive(){}
+	
+	Executive(String name, String emplNumber, Date birthDate, float biannualSalary, float bonus, Date hiringDate)
+	{
+		super(name, emplNumber, birthDate);
+		this.biannualSalary = biannualSalary;
+		this.bonus = bonus;
+		this.hiringDate = hiringDate;
+	}
+	
+	public float calculateYearlySalary()
+	{
+		float yearlySalary = this.biannualSalary*2 + this.bonus;
+		return yearlySalary;
+	}
+}

@@ -1,0 +1,38 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class MainPanel {
+    private JFrame frame;
+    private JPanel panel;
+
+    public MainPanel() {
+        frame = new JFrame("Exemple Centré");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        panel = new JPanel(new GridBagLayout());
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.anchor = GridBagConstraints.WEST; // Aligner à gauche
+        gbc.insets = new Insets(10, 10, 10, 10); // Espacement autour des composants
+        gbc.gridx = 0;
+        gbc.gridy = 0;
+
+        // Ajouter des composants
+        panel.add(new JLabel("Nom :"), gbc);
+        gbc.gridy++;
+        panel.add(new JTextField(15), gbc);
+        gbc.gridy++;
+        panel.add(new JLabel("Classe :"), gbc);
+        gbc.gridy++;
+        panel.add(new JTextField(15), gbc);
+
+        // Ajouter le panel à la frame
+        frame.add(panel);
+        frame.pack();
+        frame.setLocationRelativeTo(null); // Centrer la fenêtre à l'écran
+        frame.setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(MainPanel::new);
+    }
+}

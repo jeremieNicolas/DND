@@ -1,0 +1,113 @@
+package dndv2;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
+
+public class FeuillePersonnage {
+
+	private JFrame frame;
+	private JTextField txtNomPersonnage;
+	private JTextField txtNomJoueur;
+	private JLabel lblNiveau;
+	private JTextField txtNiveau;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					FeuillePersonnage window = new FeuillePersonnage();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public FeuillePersonnage() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 1220, 707);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JPanel idPersonnage = new JPanel();
+		idPersonnage.setBounds(675, 11, 519, 95);
+		frame.getContentPane().add(idPersonnage);
+		idPersonnage.setLayout(null);
+		
+		JLabel lblNomPersonnage = new JLabel("Nom personnage");
+		lblNomPersonnage.setBounds(10, 11, 81, 14);
+		idPersonnage.add(lblNomPersonnage);
+		
+		txtNomPersonnage = new JTextField();
+		txtNomPersonnage.setBounds(101, 8, 86, 20);
+		idPersonnage.add(txtNomPersonnage);
+		txtNomPersonnage.setColumns(10);
+		
+		JLabel lblRace = new JLabel("Race");
+		lblRace.setBounds(10, 36, 81, 14);
+		idPersonnage.add(lblRace);
+		
+		JLabel lblClasse = new JLabel("Classe");
+		lblClasse.setBounds(10, 61, 46, 14);
+		idPersonnage.add(lblClasse);
+		
+		JLabel lblNomJoueur = new JLabel("Nom joueur");
+		lblNomJoueur.setBounds(229, 11, 65, 14);
+		idPersonnage.add(lblNomJoueur);
+		
+		txtNomJoueur = new JTextField();
+		txtNomJoueur.setBounds(292, 8, 86, 20);
+		idPersonnage.add(txtNomJoueur);
+		txtNomJoueur.setColumns(10);
+		
+		lblNiveau = new JLabel("Niveau");
+		lblNiveau.setBounds(229, 36, 46, 14);
+		idPersonnage.add(lblNiveau);
+		
+		txtNiveau = new JTextField();
+		txtNiveau.setBounds(292, 33, 86, 20);
+		idPersonnage.add(txtNiveau);
+		txtNiveau.setColumns(10);
+		
+		JLabel lblHistorique = new JLabel("Historique");
+		lblHistorique.setBounds(229, 61, 65, 14);
+		idPersonnage.add(lblHistorique);
+		
+		JComboBox comboHistorique = new JComboBox();
+		comboHistorique.setModel(new DefaultComboBoxModel(new String[] {"Choisir...", "Acolyte", "Artiste", "Charlatan", "Criminel", "Enfant des rues", "Ermite", "Héros du peuple", "Marin", "Noble", "Sage", "Sauvageon", "Soldat"}));
+		comboHistorique.setBounds(292, 57, 86, 22);
+		idPersonnage.add(comboHistorique);
+		
+		JComboBox comboRace = new JComboBox();
+		comboRace.setModel(new DefaultComboBoxModel(new String[] {"Choisir...", "Demi-elfe", "Demi-orc", "Elfe", "Elfe sylvestre", "Elfe noir", "Gnome", "Gnome des forêts", "Gnome des roches", "Halfelin", "Halfelin pied-léger", "Halfelin robuste", "Haut-elfe", "Humain", "Nain", "Nain des collines", "Nain des montagnes", "Sangdragon", "Tieffelin"}));
+		comboRace.setBounds(101, 32, 86, 22);
+		idPersonnage.add(comboRace);
+		
+		JComboBox comboClasse = new JComboBox();
+		comboClasse.setModel(new DefaultComboBoxModel(new String[] {"Choisir...", "Barbare", "Clerc", "Druide", "Ensorceleur", "Guerrier", "Magicien", "Moine", "Paladin", "Rôdeur", "Roublard", "Sorcier"}));
+		comboClasse.setBounds(101, 57, 86, 22);
+		idPersonnage.add(comboClasse);
+	}
+}

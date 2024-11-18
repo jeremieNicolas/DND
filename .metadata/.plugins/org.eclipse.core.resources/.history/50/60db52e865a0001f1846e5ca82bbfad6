@@ -1,0 +1,26 @@
+package Races;
+
+import java.util.List;
+
+public class Halfelin extends Race{
+	
+	List<Caracteristique> listCaracteristique;
+	
+	Halfelin()
+	{
+		this.listCaracteristique = super.listCaracteristique;
+		this.listCaracteristique.add(new Caracteristique("Augmentation de caractéristiques", "Votre valeur de Dextérité augmente de 2"));
+	}
+
+	public List<Caracteristique> getListCaracteristique() {
+		return listCaracteristique;
+	}
+
+	public void setListCaracteristique(List<Caracteristique> listCaracteristique) {
+		this.listCaracteristique = listCaracteristique;
+	}
+
+	
+	
+
+}

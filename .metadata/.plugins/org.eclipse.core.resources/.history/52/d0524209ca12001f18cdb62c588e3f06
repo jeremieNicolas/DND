@@ -1,0 +1,25 @@
+package biblio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Bibliothèque {
+    String nomBibliothèque;
+    List<Livre> livres;
+    List<Utilisateur> utilisateurs;
+    String adresse; 
+    
+    // Constructeur par défaut
+    Bibliothèque() {
+        this.livres = new ArrayList<>();
+        this.utilisateurs = new ArrayList<>();
+    }
+
+    // Constructeur avec paramètres
+    Bibliothèque(String nomBibliothèque, String adresse) {
+        this.nomBibliothèque = nomBibliothèque;
+        this.adresse = adresse;
+        this.livres = new ArrayList<>();
+        this.utilisateurs = new ArrayList<>();
+    }
+}

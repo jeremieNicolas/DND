@@ -1,0 +1,52 @@
+package biblio;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Bibliothèque implements Serializable {
+    private static final long serialVersionUID = 1L;
+    String nomBibliothèque;
+    List<Livre> livres;
+    List<Utilisateur> utilisateurs;
+    String adresse; 
+    
+    // Constructeur par défaut
+    Bibliothèque() {
+        this.livres = new ArrayList<>();
+        this.utilisateurs = new ArrayList<>();
+    }
+
+    // Constructeur avec paramètres
+    Bibliothèque(String nomBibliothèque, String adresse) {
+        this.nomBibliothèque = nomBibliothèque;
+        this.adresse = adresse;
+        this.livres = new ArrayList<>();
+        this.utilisateurs = new ArrayList<>();
+    }
+    
+    public String ajouterLivre(Livre l)
+    {
+    	livres.add(l);
+    	return "Livre ajouté!";
+    }
+    public String supprimerLivre(Livre l)
+    {
+    	livres.remove(l);
+    	return "Livre supprimé!";
+    }
+    public String ajoutertilisateur(Utilisateur u)
+    {
+    	utilisateurs.add(u);
+    	return "Utilisateur ajouté";
+    }
+    public String supprimerUtilisateur(Utilisateur u)
+    {
+    	utilisateurs.remove(u);
+    	return "Utilisateur supprimé";
+    }
+    public void SauvegarderDonnées()
+    {
+    	
+    }
+}

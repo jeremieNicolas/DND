@@ -1,0 +1,14 @@
+package Races;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class HautElfe extends Elfe{
+	List<Caractéristique> listeCaractéristiques;
+	HautElfe(){
+		listeCaractéristiques = new ArrayList<Caractéristique>();
+		listeCaractéristiques.add(super.getCaractéristiques());
+		super.setNom("Elfe");
+		
+	}
+}

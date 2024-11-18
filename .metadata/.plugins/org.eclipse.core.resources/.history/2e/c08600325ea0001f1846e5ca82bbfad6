@@ -1,0 +1,26 @@
+package Races;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+public class Elfe extends Race{
+	String nomRace;
+	Map<String, Integer> listModifs;
+	List<Caracteristique> listCaracteristique;
+	List<String> nomsEnfant;
+	List<String> nomsMasculins;
+	List<String> nomsFeminins;
+	List<String> nomsFamille;
+	
+	public Elfe()
+	{
+		this.nomRace = "Elfe";
+		this.nomsEnfant = new ArrayList<String>();
+		this.nomsMasculins = new ArrayList<String>();
+		this.nomsFeminins = new ArrayList<String>();
+		this.nomsFamille = new ArrayList<String>();
+	}
+	
+	
+}

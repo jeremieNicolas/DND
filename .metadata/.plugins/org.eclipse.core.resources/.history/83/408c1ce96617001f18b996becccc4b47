@@ -1,0 +1,44 @@
+package biblio;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Bibliothèque biblio = Bibliothèque.chargerDonnees("biblio.dat");
+		
+		menuPrincipal();
+	}
+
+	private static void menuPrincipal() {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Système de gestion de bibliothèque.");
+		System.out.println("Veuillez sélectionner une option parmi les suivantes : ");
+		System.out.println("1. Gestion des utilisateurs");
+		System.out.println("2. Prêts et gestion des documents");
+		int choix = Integer.parseInt(scan.nextLine());
+		
+		switch(choix)
+		{
+			case 1: 
+				
+				break;
+			case 2 : 
+				
+				break;
+			default : 
+				System.out.println("Erreur. Veuillez choisir une option valide.");
+				menuPrincipal();
+				break;
+		}
+	}
+	public static void gestionUtilisateur()
+	{
+		
+	}
+	public static void gestionDocuments()
+	{
+		
+	}
+}

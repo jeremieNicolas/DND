@@ -1,0 +1,16 @@
+package FeuillePersonnage;
+
+public class FeuillePersonnage {
+	String nomJoueur;
+	String nomPersonnage;
+	Race race;
+
+	FeuillePersonnage(){}
+	
+	FeuillePersonnage(String nomJoueur, String nomPersonnage, Race race)
+	{
+		this.nomJoueur = nomJoueur;
+		this.nomPersonnage = nomPersonnage;
+		this.race = race;
+	}
+}

@@ -1,0 +1,50 @@
+package biblio;
+
+import java.io.Serializable;
+import java.util.List;
+
+
+
+public class Utilisateur implements Serializable{
+	String nom;
+	String prenom;
+	String identifiant;
+	List<Livre> listeEmprunts;
+	
+	Utilisateur(){}
+	Utilisateur(String nom, String prenom, String identifiant, List<Livre> listeEmprunts)
+	{
+		this.nom = nom;
+		this.prenom = prenom;
+		this.identifiant = identifiant;
+		this.listeEmprunts = listeEmprunts;
+	}
+	
+	public String emprunterLivre(Livre l)
+	{
+		listeEmprunts.add(l);
+		l.setDisponible(false);
+		return "Le livre " + l.titre + " a été emprunté!";
+	}
+	public String retournerLivre(Livre l)
+	{
+		listeEmprunts.remove(l);
+		l.setDisponible(true);
+		return "Le livre " + l.titre + " est de retour.";
+	}
+	public void afficherInfo()
+	{
+		System.out.print("Nom : " );
+		System.out.println(nom);
+		System.out.print("Prenom : ");
+		System.out.println(prenom);
+		System.out.print("Identifiant de l'usager : ");
+		System.out.println(identifiant);
+		System.out.println("Livres empruntés : ");
+		for (int i=0; i<listeEmprunts.size(); i++)
+		{
+			System.out.println(listeEmprunts.get(i) + ";");
+		}
+		
+	}
+}

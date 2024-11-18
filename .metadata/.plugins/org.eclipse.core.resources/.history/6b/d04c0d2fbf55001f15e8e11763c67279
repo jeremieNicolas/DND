@@ -1,0 +1,21 @@
+package races;
+
+import classes.feuillePersonnage;
+
+public class HalfelinRobuste {
+	public void init(feuillePersonnage fp)
+	{
+		fp.setDexterite(fp.getDexterite()+2);
+		fp.setConstitution(fp.getConstitution()+1);
+		fp.setAlignement("Loyal bon");
+		fp.setTaille(90);
+		caractéristique c = new caractéristique("Chanceux", "Lors d'un résultat de 1 avec le d20 d'un jet d'attaque, d'un test de caractéristique ou d'un jet de sauvegarde, possible de relancer le dé. On utilisera alors le nouveau résultat du jet.");
+		fp.listeCaractéristiques.add(c);
+		c = new caractéristique("Brave", "Vous êtes avantagé sur les jets de sauvegarde contre la terreur");
+		fp.listeCaractéristiques.add(c);
+		c = new caractéristique("Agilité halfeline", "Vous pouvez traverser n'importe quel emplacement occupé par une créature d'au moins une catégorie de taille de plus que vous.");
+		fp.listeCaractéristiques.add(c);
+		fp.autresMaitrisesEtLangues.add("Commun");
+		fp.autresMaitrisesEtLangues.add("Halfelin");
+	}
+}

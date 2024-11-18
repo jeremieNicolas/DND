@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Race : Sangdragon</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <h1>Sangdragon</h1>
+            <table>
+                <tr>
+                    <td>Nom</td>
+                    <td>Sangdragon</td>
+                </tr>
+                <tr>
+                    <td>Vitesse</td>
+                    <td>30 pieds</td>
+                </tr>
+                <tr>
+                    <td>
+                        Force
+                    </td>
+                </tr>
+            </table>
+    </body>
+</html>

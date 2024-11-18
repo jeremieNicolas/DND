@@ -1,0 +1,16 @@
+
+public class Habileté {
+	String nomHabileté;
+	String description;
+	int score;
+	boolean maitrise = false;
+	
+	Habileté(){}
+	Habileté(String nomHabileté, String description, int score, boolean maitrise)
+	{
+		this.nomHabileté = nomHabileté;
+		this.description = description;
+		this.score = score;
+		this.maitrise = maitrise;
+	}
+}

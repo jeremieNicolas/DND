@@ -1,0 +1,26 @@
+package Races;
+
+import java.util.List;
+
+public class Halfelin extends Race{
+	
+	
+	Halfelin()
+	{
+		this.listCaracteristique.add(new Caracteristique("Augmentation de caractéristiques", "Votre valeur de Dextérité augmente de 2"));
+		this.listCaracteristique.add(new Caracteristique("Âge", "Un halfelin atteint la maturité vers 20 ans et vit généralement 150 ans."));
+		this.listCaracteristique.add(new Caracteristique("Alignement", "La majorité des halfelins est d'alignement Loyal Bon. Ce sont par nature des êtres qui ont bon coeur et qui sont gentils. Ils détestent voir les autres créatures souffrir et ne tolèrent pas l'oppression. Ils sont aussi très organisés et respectueux des traditions. Ils se reposent beaucoup sur leur communauté et le confort apporté par leurs traditions."));
+	}
+
+	public List<Caracteristique> getListCaracteristique() {
+		return listCaracteristique;
+	}
+
+	public void setListCaracteristique(List<Caracteristique> listCaracteristique) {
+		this.listCaracteristique = listCaracteristique;
+	}
+
+	
+	
+
+}

@@ -1,0 +1,21 @@
+package FeuillePersonnage;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FeuillePersonnage fp;
+		Scanner scan = new Scanner(System.in);
+		
+		
+		verif();
+	}
+
+	private static void verif() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

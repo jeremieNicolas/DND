@@ -1,0 +1,19 @@
+package Races;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class HautElfe extends Elfe{
+	List<Caractéristique> listeCaractéristiques;
+	HautElfe(){
+		listeCaractéristiques = super.caractéristiques;
+		super.setNom("Haut-elfe");
+		super.setDescription("Les haut-elfes ont l'esprit vif et maîtrisent au moins les bases de la magie.");
+		Caractéristique c = new Caractéristique("Augmentation de caractéristiques 2", "La valeur d'intelligence augmente de 1.");
+		listeCaractéristiques.add(c);
+		c = new Caractéristique("Entraînement aux armes elfiques", "Vous maîtrisez les épées longues, les épées courtes, les arcs longs et les arcs courts.");
+		listeCaractéristiques.add(c);
+		c = new Caractéristique();
+		listeCaractéristiques.add(c);
+	}
+}

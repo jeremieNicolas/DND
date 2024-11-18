@@ -1,0 +1,19 @@
+package FeuillePersonnage;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Elfe extends Race {
+
+	
+	Elfe(){
+		super.nom = "Elfe";
+		super.description = "Les elfes forment un peuple magique grâce à la magie surnaturelle. Ils vivent dans un autre monde dont ils ne font pas entièrement partie. Ils résident en des lieux à la beauté éthérée, au coeur d'atiques forêts ou dans des tours d'argent luisant d'un éclat féérique, là où une douce musique flotte dans les airs et une brise parfumée enchante les narines. Les elfes aiment la nature et la magie, les arts et le talent artistique, la musique et la poésie, et toutes les bonnes choses de la vie. ";
+		super.caractéristiques = new ArrayList<String>();
+		super.caractéristiques.add("Noms d'enfant : Ara, Bryn, Del, Éryn, Faen, Innil, Lael, Mella. Naill, Naéris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall. ");
+		super.caractéristiques.add("Noms masculins : Adran, Aélar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Énialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Péren, Quarion, Rivardon, Rolen, Soveliss, Thamior, Tharivol, Théren, Varis");
+		super.caractéristiques.add("Noms féminins : Adrie, Althaéa, Anastrianne, Andraste, Antinua, Béthrynne, Birel, Caélynn, Drusilia, Enna, Félosial, Iélénia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quélenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastre, Thia, Vadania, Valanthe, Xanaphie");
+		super.caractéristiques.add("Noms de famille (traduction en commun) : Amakiir (Fleurdegemme), Amastacie (Fleurstellaire), Galanodel (Murmurelunaire), Holimion (Roséedediamant), Ilphelkiir (Boutondegemme), Liadon (Feuilleargent), Méliamne (Pieddechêne), Naîlo (Brisenocturne), Siannodel (Ruisseaulunaire), Xiloscient (Pétald'or)");
+		super.caractéristiques.add("Augmentation de caractéristiques : Votre dextérité augmente de 2");
+	}
+}

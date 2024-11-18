@@ -1,0 +1,17 @@
+package Classes;
+
+import java.util.Date;
+
+public class HourlyEmployee extends Employee{
+	float hourlyRate;
+	int standardWorkWeek;
+	
+	HourlyEmployee(){}
+	HourlyEmployee(String name, String employeeNumber, Date birthDate, float hourlyRate, int standardWorkWeek)
+	{
+		super(name, employeeNumber, birthDate);
+		this.hourlyRate = hourlyRate;
+		this.standardWorkWeek = standardWorkWeek;
+	}
+	
+}

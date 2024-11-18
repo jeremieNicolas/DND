@@ -1,0 +1,18 @@
+
+public class Habileté {
+	String nomHabileté;
+	String description;
+	int score;
+	int modificateur;
+	
+	Habileté(){}
+	Habileté(String nomHabileté, String description, int score, int modificateur)
+	{
+		this.nomHabileté = nomHabileté;
+		this.description = description;
+		this.score = score;
+		this.modificateur = modificateur;
+	}
+	
+	
+}

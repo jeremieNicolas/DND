@@ -1,0 +1,12 @@
+package Race;
+
+import java.util.List;
+
+import classesLogicielles.Caractéristique;
+
+public abstract class BaseRace {
+	String nomRace;
+	List<Caractéristique> listCaractéristique;
+	
+	public abstract void init();
+}

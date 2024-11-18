@@ -1,0 +1,74 @@
+package biblio;
+
+public class Livre {
+	String titre;
+	String auteur;
+	String isbn;
+	boolean disponible;
+	
+	Livre(){}
+	Livre(String titre, String auteur, String isbn, boolean disponible)
+	{
+		this.titre = titre;
+		this.auteur = auteur;
+		this.isbn = isbn;
+		this.disponible = disponible;
+	}
+	
+	public String Emprunter()
+	{
+		this.setDisponible(false);
+		return("Le livre est emprunté!");
+	}
+	public String Retourner()
+	{
+		this.setDisponible(true);
+		return("Le livre est de retour!");
+	}
+	public String checkDisponible()
+	{
+		if (disponible == true)
+		{
+			return "Le livre est disponible";
+			
+		}
+		else
+		{
+			return "Le livre est indisponible";
+		}
+	}
+	public void afficherInfo()
+	{
+		System.out.println("Titre : " + titre);
+		System.out.println("Auteur : " + auteur);
+		System.out.println("isbn : " + isbn);
+		System.out.println(checkDisponible());
+	}
+	
+	public String getTitre() {
+		return titre;
+	}
+	public void setTitre(String titre) {
+		this.titre = titre;
+	}
+	public String getAuteur() {
+		return auteur;
+	}
+	public void setAuteur(String auteur) {
+		this.auteur = auteur;
+	}
+	public String getIsbn() {
+		return isbn;
+	}
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+	public boolean isDisponible() {
+		return disponible;
+	}
+	public void setDisponible(boolean disponible) {
+		this.disponible = disponible;
+	}
+	
+	
+}

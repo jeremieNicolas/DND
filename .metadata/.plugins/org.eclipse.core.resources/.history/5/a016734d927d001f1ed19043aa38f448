@@ -1,0 +1,52 @@
+package dndv2;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String nomJoueur;
+		String nomPersonnage;
+		Scanner scan = new Scanner(System.in);
+		String classe;
+		int niveau;
+		
+		System.out.println("Veuillez entrer le nom du joueur :");
+		nomJoueur = scan.nextLine();
+		
+		FeuillePersonnage fp = new FeuillePersonnage();
+		fp.setNomJoueur(nomJoueur);
+		
+		System.out.print("Nom du joueur: ");
+		System.out.println(fp.getNomJoueur());
+		
+		System.out.println("Veuillez entrer le nom du personnage : ");
+		nomPersonnage = scan.nextLine();
+		fp.setNomPersonnage(nomPersonnage);
+		System.out.print("Nom du personnage : ");
+		System.out.println(fp.getNomPersonnage());
+
+	
+		System.out.println("Entrez le niveau du personnage : ");
+		niveau = Integer.parseInt(scan.nextLine());
+		fp.setNiveau(niveau);
+		
+		System.out.print("Niveau : ");
+		System.out.println(fp.getNiveau());
+		
+		System.out.println("De quelle race est le personnage?"); 
+		String race = scan.nextLine();
+		fp.setRace(race);
+		
+		System.out.println("Veuillez entrer la classe du personnage : ");
+		classe = scan.nextLine();
+		fp.setClasse(classe);
+		
+		System.out.print("Classe : ");
+		System.out.println(fp.getClasse());
+	
+		
+	}
+
+}

@@ -1,0 +1,43 @@
+package Races;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class Race {
+	String nom;
+	private String description;
+	public List<String> caractéristiques;
+	protected Race(){}
+	
+	public Race(String nom)
+	{
+		this.nom = nom;
+		this.caractéristiques = new ArrayList<String>();
+	}
+	
+	public void showCaractéristiques()
+	{
+		for (int i = 0; i< caractéristiques.size(); i++)
+		{
+			System.out.println(caractéristiques.get(i));
+		}
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+}
+

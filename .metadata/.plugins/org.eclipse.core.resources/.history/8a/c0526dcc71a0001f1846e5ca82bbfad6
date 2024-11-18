@@ -1,0 +1,60 @@
+package Races;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class Halfelin extends Race{
+	
+	
+	Halfelin()
+	{
+		this.setNomRace("Halfelin");
+		this.setListModifs(new HashMap<>());
+		this.getListModifs().put("Dextérité", 2);
+		this.listCaracteristique.add(new Caracteristique("Augmentation de caractéristiques", "Votre valeur de Dextérité augmente de 2"));
+		this.listCaracteristique.add(new Caracteristique("Âge", "Un halfelin atteint la maturité vers 20 ans et vit généralement 150 ans."));
+		this.listCaracteristique.add(new Caracteristique("Alignement", "La majorité des halfelins est d'alignement Loyal Bon. Ce sont par nature des êtres qui ont bon coeur et qui sont gentils. Ils détestent voir les autres créatures souffrir et ne tolèrent pas l'oppression. Ils sont aussi très organisés et respectueux des traditions. Ils se reposent beaucoup sur leur communauté et le confort apporté par leurs traditions."));
+		this.listCaracteristique.add(new Caracteristique("Taille", "D'une taille moyenne de 90 cm, les halfelins pèsent en moyenne 20 kilos. Ils sont de taille Petite."));
+		this.listCaracteristique.add(new Caracteristique("Vitesse", "Votre vitesse de base au sol est de 7,50 mètres."));
+		this.listCaracteristique.add(new Caracteristique("Chanceux", "Quand vous faites un 1 avec le d20 d'un jet d'attaque, d'un test de caractéristique ou d'un jet de sauvegarde, vous pouvez relancer le dé. Vous devez toutefois utiliser le nouveau résultat du jet."));
+		this.listCaracteristique.add(new Caracteristique("Brave", "Vous êtes avantagé sur les jets de sauvegarde contre la terreur."));
+		this.listCaracteristique.add(new Caracteristique("Agilité halfeline", "Vous pouvez traverser n'importe quel emplacement occupé par une créature d'au moins une catégorie de taille de plus que vous."));
+		this.listCaracteristique.add(new Caracteristique("Langues", "Vous pouvez parler, lire et écrire le commun et le halfelin. Bien que la langue des halfelins n'ait rien d'un secret, ils n'aiment pas l'apprendre aux autres. Ils écrivent très peu et n'ont donc pas énormément de livres. Leur tradition orale est par contre très riche. Presque tous les halfelins parlent le commun, ce qui leur permet de converser avec les gens qui habitent sur les mêmes territoires qu'eux ou dont ils traversent les terres."));
+	}
+
+	public List<Caracteristique> getListCaracteristique() {
+		return listCaracteristique;
+	}
+
+	public void setListCaracteristique(List<Caracteristique> listCaracteristique) {
+		this.listCaracteristique = listCaracteristique;
+	}
+
+	
+	
+
+}
+/*
+public Elfe() {
+this.setNomRace("Elfe");
+
+this.setListModifs(new HashMap<>());
+this.getListModifs().put("Dextérité", 2);
+
+this.setListCaracteristique(new ArrayList<>());
+this.getListCaracteristique().add(new Caracteristique("Augmentation de caractéristique", "Votre dextérité augmente de 2"));
+this.getListCaracteristique().add(new Caracteristique("Âge", "Bien que les elfes atteignent leur maturité physique environ au même âge que les humains, ils considèrent qu'être un adulte dépasse ce simple aspect et prend en compte l'expérience de la vie. Un elfe se déclare généralement adulte vers 100 ans et choisit à ce moment son nom d'adulte. Les elfes peuvent vivre jusqu'à 750 ans."));
+this.getListCaracteristique().add(new Caracteristique("Alignement", "Les elfes sont amoureux de la liberté, de la diversité et de leur liberté d'expression. C'est pourquoi ils tendent fortement vers les aspects les plus modérés du chaos. La liberté des autres a autant de valeur à leurs yeux que la leur et ils sont plutôt enclins à faire le bien. Les drows sont une exception. Leur exil en ombreterre les a rendus vicieux et dangereux et ils sont donc plus enclins à faire le mal."));
+this.getListCaracteristique().add(new Caracteristique("Vitesse", "Votre vitesse de base au sol est de 9 mètres."));
+this.getListCaracteristique().add(new Caracteristique("Vision dans le noir", "Habitué à la pénombre des forêts et au ciel nocturne, vous avez une vision supérieure dans l'obscurité et dans la lumière faible. Dans un rayon de 18 mètres, vous pouvez voir dans une zone de lumière faible comme s'il s'agissait de lumière vive et dans l'obscurité comme s'il s'agissait d'une lumière faible. Par contre, vous ne distinguez pas la couleur dans l'obscurité, seulement des nuances de gris."));
+this.getListCaracteristique().add(new Caracteristique("Sens aiguisés", "Vous maîtrisez la compétence Perception"));
+this.getListCaracteristique().add(new Caracteristique("Ascendance féérique", "Vous êtes avantagé sur les jets de sauvegarde contre l'effet charmé et vous ne pouvez pas être contraint à dormir par la magie."));
+this.getListCaracteristique().add(new Caracteristique("Transe", "Les elfes n'ont pas besoin de dormir. à la place, ils passent 4 heures par jour dans un état de méditation profonde tout en restant semi-conscient (Le mot qui décrit cette méditation en langage commun est \"transe\"). Pendant cette méditation, vous pouvez faire une sorte de rêve. De telles \"rêves\" sont en réalité des exercices mentaux devenus des réflexes au bout de plusieurs années de pratique. En se reposant ainsi, vous bénificiez des mêmes avantages conférés à un humain par 8 heures de sommeil. "));
+this.getListCaracteristique().add(new Caracteristique("Langues", "Vous pouvez parler, lire et écrire le commun et l'elfique. Le langage des elfes est fluide, avec des intonations subtiles et une grammaire élaborée. La littérature des elfes est riche et variée et leurs chansons et poèmes sont populaires parmi les autres races. De nombreux bardes apprennent à parler Elfe afin de pouvoir ajouter des ballades elfiques à leur répertoire."));
+
+this.setNomsEnfant(List.of("Ara", "Bryn", "Del", "Éryn", "Faen", "Innil", "Lael", "Mella", "Naill", "Naéris", "Phann", "Rael", "Rinn", "Sal", "Syllin"));
+this.setNomsMasculins(List.of("Adran", "Aélar", "Aramil", "Arannis", "Aust", "Beiro", "Berrian", "Carrie", "Énialis", "Erdan", "Erevan", "Galinndan", "Hadaraï", "Heian", "Himo", "Immeral", "Ivellios", "Laucian", "Mindartis", "Paelias", "Péren", "Quarion", "Riardon", "Rolen", "Soveliss", "Thamior", "Tharivol", "Théren", "Varis"));
+this.setNomsFeminins(List.of("Adrie", "Althaéa", "Anastrianne", "Andraste", "Antinua", "Béthrynne", "Birel", "Caélynn", "Drusilia", "Enna", "Félosial", "Iélénia", "Jelenneth", "Keyleth", "Leshanna", "Lia", "Meriele", "Mialee", "Naivara", "Quélenna", "Quillathe", "Sariel", "Shanairra", "Shava", "Silaqui", "Theirastre", "Thia", "Vadania", "Valanthe", "Xanaphie"));
+this.setNomsFamille(List.of("Amakiir (Fleurdegemme)", "Amastacie (Fleurstellaire)", "Galanodel (Murmurelunaire)", "Holimion (Roséedediamant)", "Ilphelkiir (Boutondegemme)", "Liadon (FeuilleArgent)", "Méliamne (Pieddechêne)", "Naïlo (Brisenocturne)", "Siannodel (RuisseauLunaire)", "Xiloscient (Pétald'or)"));
+}*/

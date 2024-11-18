@@ -1,0 +1,30 @@
+package Classes;
+
+import java.util.Date;
+
+public class SalariedEmployee extends Employee {
+	float monthlySalary;
+	char benefitsPackage;
+	
+	SalariedEmployee(){}
+	SalariedEmployee(String name, String employeeNumber, Date birthDate, float monthlySalary, char benefitsPackage)
+	{
+		super(name, employeeNumber, birthDate);
+		this.monthlySalary = monthlySalary;
+		this.benefitsPackage = benefitsPackage;
+	}
+	public float getMonthlySalary() {
+		return monthlySalary;
+	}
+	public void setMonthlySalary(float monthlySalary) {
+		this.monthlySalary = monthlySalary;
+	}
+	public char getBenefitsPackage() {
+		return benefitsPackage;
+	}
+	public void setBenefitsPackage(char benefitsPackage) {
+		this.benefitsPackage = benefitsPackage;
+	}
+	
+	
+}

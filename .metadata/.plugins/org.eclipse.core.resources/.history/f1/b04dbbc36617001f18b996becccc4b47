@@ -1,0 +1,10 @@
+package biblio;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Bibliothèque biblio = Bibliothèque.chargerDonnees("biblio.dat");
+
+	}
+
+}
