@@ -28,11 +28,7 @@ public class Humain extends Race {
        List<String> nomsFemininsChondathiens = new ArrayList<String>(List.of("Arveene","Esvele","Jhessail","Kerri","Lureene","Miri","Rowan","Shandri","Tessèle"));
        List<String> nomsFamilleChondatiens = new ArrayList<String>(List.of("Dragonbrun","Fânecouronne", "Grandcerf","Griscastel","Lièvre","Platbois"));
        
-       List<String> nomsMasculinsDamariens = new ArrayList<String>(List.of("Bor","Fodel","Glar","Grigor", "Igan","Ivor", "Kosef","Mival","Orel","Pavel","Sergor"));
-       List<String> nomsFemininsDamariens = new ArrayList<String>(List.of("Aléthre","Kara","Katernine","Mara","Natali","Olma","Tana","Zora"));
-       List<String> nomsFamilleDamariens = new ArrayList<String>(List.of("Bersk", "Chernin","Dotsk","Kulenov","Marsk", "Németsk", "Shemov","Starag"));
-       
-       List<String> nomsMasculinsIlluskiens = new ArrayList<String>(List.of("Andre","Blath",""));
+
         
 
       

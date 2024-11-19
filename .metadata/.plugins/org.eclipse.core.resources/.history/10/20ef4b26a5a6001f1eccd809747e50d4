@@ -1,0 +1,33 @@
+package Races;
+
+import java.util.ArrayList;
+
+public class EthnieHumaine {
+	String nomEthnie;
+	String description;
+	String nomsSuggérés;
+	EthnieHumaine(){}
+	
+	EthnieHumaine(String nomEthnie, String description)
+	{
+		this.nomEthnie = nomEthnie;
+		this.description = description;
+	}
+
+	public String getNomEthnie() {
+		return nomEthnie;
+	}
+
+	public void setNomEthnie(String nomEthnie) {
+		this.nomEthnie = nomEthnie;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+}

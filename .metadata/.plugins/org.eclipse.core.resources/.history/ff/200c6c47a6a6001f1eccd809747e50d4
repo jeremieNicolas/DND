@@ -10,7 +10,7 @@ public class EthnieHumaine {
 	List<String> prénomsFémininsSuggérés;
 	List<String> nomsFamilleSuggérés;
 	List<String> prénomsEnfantsSuggérés;
-	EthnieHumaine(String string, String string2, List<String> nomsMasculins, List<String> nomsFéminins, List<String> nomsFamille){}
+	EthnieHumaine(){}
 	
 	EthnieHumaine(String nomEthnie, String description)
 	{
