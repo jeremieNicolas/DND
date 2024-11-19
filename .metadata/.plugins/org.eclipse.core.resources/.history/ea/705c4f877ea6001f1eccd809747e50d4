@@ -1,0 +1,48 @@
+package Races;
+
+import java.util.ArrayList;
+
+public class EthnieHumaine {
+	String nomEthnie;
+	String description;
+	ArrayList<String> nomsMasculins;
+	ArrayList<String> nomsFéminins;
+	ArrayList<String> nomsFamille;
+	
+	EthnieHumaine(){}
+	
+	EthnieHumaine(String nomEthnie, String description, ArrayList<String> nomsMasculins, ArrayList<String> nomsFeminins, ArrayList<String> nomsFamille
+	{
+		this.nomEthnie = nomEthnie;
+		this.description = description;
+		this.nomsMasculins = nomsMasculins;
+		this.nomsFéminins = nomsFeminins;
+		this.nomsFamille = nomsFamille;
+	}
+
+	public String getNomEthnie() {
+		return nomEthnie;
+	}
+
+	public void setNomEthnie(String nomEthnie) {
+		this.nomEthnie = nomEthnie;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public ArrayList<String> getNoms() {
+		return noms;
+	}
+
+	public void setNoms(ArrayList<String> noms) {
+		this.noms = noms;
+	}
+	
+	
+}

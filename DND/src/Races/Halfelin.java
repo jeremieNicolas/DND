@@ -11,6 +11,24 @@ public class Halfelin extends Race{
 		List<Caractéristique> listCaractéristiques = new ArrayList<Caractéristique>();
 		Caractéristique c;
 		
+        List<String> nomsFéminins = new ArrayList<>(List.of(
+                "Andry", "Bree","Callie","Cora", "Euphémie","Jillian", "Kithri","Lavinia","Lidda","Merla",
+                "Nedda", "Paèle", "Portia", "Séraphine","Shaena","Trym", "Vani", "Verra"
+            ));
+
+            // Liste des noms masculins
+            List<String> nomsMasculins = new ArrayList<>(List.of(
+            		"Alton","Andre","Cade","Corrin","Eldon","Errich","Finnan","Garret", "Lindal","Lyle",
+                    "Merric", "Milo", "Osborn", "Perrin", "Reed", "Roscoe", "Wellby"
+            ));
+            
+            List<String> nomsFamille = new ArrayList<>(List.of("Bontonneau", "Buissons", "Butepavé", "Épine",
+            		"Feuilledethé","Grandpré", "Hautecolline","Récoltepinceaux","Roulecolline", "Vertbouteille"));
+            // Liste complète combinant les deux
+            List<String> tousLesNoms = new ArrayList<>();
+            tousLesNoms.addAll(nomsFéminins);
+            tousLesNoms.addAll(nomsMasculins);
+		
 		c = new Caractéristique("Augmentation de caractéristiques", "Votre dextérité augmente de 2");
 		listCaractéristiques.add(c);
 		c = new Caractéristique("Âge", "Un halfelin atteint la maturité vers 20 ans et vit généralement 150 ans.");

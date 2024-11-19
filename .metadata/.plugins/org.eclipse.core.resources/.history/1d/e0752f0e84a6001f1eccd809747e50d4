@@ -1,0 +1,18 @@
+package Races;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Humain extends Race{
+	super.setNom("Humain");
+	super.caractéristiques = new ArrayList<Caractéristique>();
+	super.setDescription("Dans l'histoire de bien des mondes, les h umains forment la plus jeune des races communes et sont arrivés bien tardivement sur la scène mondiale comparés aux nains, aux elfes et aux dragons. Peut-être est-ce à cause de leur espérance de vie réduite qu'ils tentent d'accomplir tant de choses lors de leurs courte vie. Ou peut-être pensent-ils avoir quelque chose à prouver aux races plus anciennes et bâtissent donc leurs puissants empires faites de commerce et de conquêtes. Quelles que soient leurs motivations, les humains sont des innovateurs qui rencontrent un franc succès et deviennent les pionniers de leur monde.");
+	Caractéristique c;
+	EthnieHumaine[] listeEthnie = new ArrayList<EthnieHumaine>();
+	
+	EthnieHumaine ethnie;
+	
+	ethnie = new EthnieHumaine("Calishite", "Les calishites sont plus petits et plus trapus que la plupart des humains. Ils ont la peau bronzée et des cheveux et des yeux marron foncé. On les trouve principalement au sud-ouest de féérune.");
+	
+	
+	}

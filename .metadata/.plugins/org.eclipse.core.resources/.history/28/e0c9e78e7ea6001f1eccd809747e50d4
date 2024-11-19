@@ -1,0 +1,64 @@
+package Races;
+
+import java.util.ArrayList;
+
+public class EthnieHumaine {
+	String nomEthnie;
+	String description;
+	ArrayList<String> nomsMasculins;
+	ArrayList<String> nomsFéminins;
+	ArrayList<String> nomsFamille;
+	
+	EthnieHumaine(){}
+	
+	EthnieHumaine(String nomEthnie, String description, ArrayList<String> nomsMasculins, ArrayList<String> nomsFeminins, ArrayList<String> nomsFamille
+	{
+		this.nomEthnie = nomEthnie;
+		this.description = description;
+		this.nomsMasculins = nomsMasculins;
+		this.nomsFéminins = nomsFeminins;
+		this.nomsFamille = nomsFamille;
+	}
+
+	public String getNomEthnie() {
+		return nomEthnie;
+	}
+
+	public void setNomEthnie(String nomEthnie) {
+		this.nomEthnie = nomEthnie;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public ArrayList<String> getNomsMasculins() {
+		return nomsMasculins;
+	}
+
+	public void setNomsMasculins(ArrayList<String> nomsMasculins) {
+		this.nomsMasculins = nomsMasculins;
+	}
+
+	public ArrayList<String> getNomsFéminins() {
+		return nomsFéminins;
+	}
+
+	public void setNomsFéminins(ArrayList<String> nomsFéminins) {
+		this.nomsFéminins = nomsFéminins;
+	}
+
+	public ArrayList<String> getNomsFamille() {
+		return nomsFamille;
+	}
+
+	public void setNomsFamille(ArrayList<String> nomsFamille) {
+		this.nomsFamille = nomsFamille;
+	}
+
+	
+}

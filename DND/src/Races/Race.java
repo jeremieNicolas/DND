@@ -7,13 +7,13 @@ public abstract class Race {
 	String nom;
 	private String description;
 	public List<Caractéristique> caractéristiques;
-	
+	public List<String> nomsSuggérés;
 	protected Race(){}
 	
 	protected Race(String nom)
 	{
 		this.nom = nom;
-		this.caractéristiques = new ArrayList<Caractéristique>();
+		this.caractéristiques = new ArrayList<Caractéristique>();	
 	}
 	
 	public void showCaractéristiques()

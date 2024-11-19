@@ -11,6 +11,25 @@ public class Elfe extends Race {
 		super.setNom("Elfe");
 		super.setDescription("Les elfes forment un peuple magique grâce à la magie surnaturelle. Ils vivent dans un autre monde dont ils ne font pas entièrement partie. Ils résident en des lieux à la beauté éthérée, au coeur d'atiques forêts ou dans des tours d'argent luisant d'un éclat féérique, là où une douce musique flotte dans les airs et une brise parfumée enchante les narines. Les elfes aiment la nature et la magie, les arts et le talent artistique, la musique et la poésie, et toutes les bonnes choses de la vie. ");
 		Caractéristique c;
+        List<String> nomsEnfant = new ArrayList<>(List.of(
+                "Ara", "Bryn", "Del", "Eryn", "Faen", "Innil", "Lael", "Mella", "Naill", 
+                "Naéris", "Phann", "Rael", "Rinn", "Sai", "Syllin", "Thia", "Vall"
+            ));
+
+            // Liste des noms masculins
+            List<String> nomsMasculins = new ArrayList<>(List.of(
+                "Adran", "Aelar", "Aramil", "Arannis", "Aust", "Beiro", "Berrian", 
+                "Carric", "Ênialis", "Erdan", "Erevan", "Galindan", "Hadaraï", "Heian", 
+                "Himo", "Immeral", "Ivellios", "Laucian", "Mindartis", "Paelias", 
+                "Pêren", "Quarion", "Riardon", "Rolen", "Soveliss", "Thamior", "Tharivol", 
+                "Théren", "Varis"
+            ));
+
+            // Liste complète combinant les deux
+            List<String> tousLesNoms = new ArrayList<>();
+            tousLesNoms.addAll(nomsEnfant);
+            tousLesNoms.addAll(nomsMasculins);
+            
 		c = new Caractéristique("Noms d'enfant","Noms d'enfant : Ara, Bryn, Del, Éryn, Faen, Innil, Lael, Mella. Naill, Naéris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall. ");
 		super.caractéristiques.add(c);
 		c = new Caractéristique("Noms masculins", "Adran, Aélar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Énialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Péren, Quarion, Rivardon, Rolen, Soveliss, Thamior, Tharivol, Théren, Varis");
