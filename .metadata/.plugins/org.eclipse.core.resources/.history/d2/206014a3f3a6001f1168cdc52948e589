@@ -64,13 +64,5 @@ public class Humain extends Race {
                 new EthnieHumaine("Téthyrien","Les téthyriens sont très présents sur toute la côte des épées, à l'ouest de Féérune. Ils ont une carrure et une stature moyenne et la peau olivâtre, sachant qu'elle présente des teintes plus pâles vers le nord. La couleur de leurs yeux et de leurs cheveux varie grandement, le plus courant étant des cheveux bruns et des yeux bleus. Les Théthyriens utilisent principalement des noms condathiens", nomsMasculinsChondathiens, nomsFemininsChondathiens, nomsFamilleChondatiens),
                 new EthnieHumaine("Turami","Natifs de la rive méridionale de la mer Intérieure, les Turamis sont grands et musculeux, avec une peau couleur d'acajou sombre, des cheveux noirs bouclés et des yeux sombres.", nomsMasculinsTurami, nomsFemininsTurami, nomsFamilleTurammi)                		
         };
-        
-        caractéristiques.add(new Caractéristique("Augmentation de caractéristiques","La valeur de toutes les caractéristiques augmentent de 1"));
-        caractéristiques.add(new Caractéristique("Âge", "Les humains deviennent adultes vers 20 ans et vivent moins d'un siècle."));
-        caractéristiques.add(new Caractéristique("Alignement","Les humaisn ne sont pas naturellement attirés vers un certain type d'alignement. On trouve parmi eux le meilleur comme le pire."));
-        caractéristiques.add(new Caractéristique("Taille","Les humains ont des tailles et des carrures très variées. Ils peuvent faire 1,50 mètre comme plus de 1,80 mètre. Ils sont considérés comme de taille Moyenne, peu importe leur poids, leur taille ou leur carrure."));
-        caractéristiques.add(new Caractéristique("Vitesse","La vitesse d'un humain au sol est de 9 mètres."));
-        caractéristiques.add(new Caractéristique("Langues", "Les humaisn peuvent parler, écrire et lire le commun et une langue supplémentaire au choix. Les humains apprennent généralement la langue des peuples qu'ils fréquentent, même s'il s'agit d'obscurs dialectes. Ils aiment parsemer leur langue d'expressions empruntées à d'autres races : des jurons orcs, des expressions musicales elfiques, des citation militaire naines, etc."));
-        caractéristiques.add(new Caractéristique("Variante de traits humains", "Si vous utilisez les règles optionnelles des dons du chapitre 6, le MD peut autoriser ces traits alternatifs qui remplacent le trait initial augmentation de caractéristiques : Augmentation de caractéristique - La valeur de deux caractérsitiques au choix augmente de 1. Compétence : maîtrise d'une compétence au choix. Don : Obtention d'un don au choix."));
     }
 }
