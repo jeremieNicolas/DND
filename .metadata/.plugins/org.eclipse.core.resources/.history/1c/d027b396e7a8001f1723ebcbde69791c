@@ -1,0 +1,6 @@
+package Races;
+
+public class Sangdragon extends Race{
+	
+
+}

@@ -1,0 +1,15 @@
+package ClassesSupplémentaires;
+
+public class objetGnomeDesRoches {
+	String nom;
+	String description;
+	
+	objetGnomeDesRoches(){}
+
+	public objetGnomeDesRoches(String nom, String description) {
+		this.nom = nom;
+		this.description = description;
+	}
+	
+	
+}
