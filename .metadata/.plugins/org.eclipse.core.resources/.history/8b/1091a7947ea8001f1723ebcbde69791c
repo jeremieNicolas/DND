@@ -1,0 +1,20 @@
+package Races;
+
+import java.util.ArrayList;
+
+public class DemiElfe extends Race{
+	
+	public DemiElfe()
+	{
+		super.setNom("Demi-elfe");
+		super.caractéristiques = new ArrayList<>();
+		super.setDescription("Issus de deux mondes sans vraiment appartenir à aucu, les demi-elfes combinent ce que certains disent être les meilleures qualités de leurs parents humains et elfes : la curiosité, l'inventivité et l'ambition des humains, tempérées par le sens du raffinement, l'amour de la nature et les goûts artistiques des elfes. Certains demi-elfes vivent parmi les humains, mis à l'écart à cause de leurs différences émotionnelles et physiques, condamnés à voir ceux qu'ils aiment vieillir alorsq eu le temps les effleure à peine. D'autres vivent avec les elfes et se laissent gagner par la fébrilité quand ils atteignent l'âge adulte dans les royaumes intemporels des elfes où leurs camarades continuent de vivre comme des enfants. De nombreux demi-elfes se révèlent incapables de s'intégrer pleinement dans la société d'un de leurs parents et optent pour une vie de vagabondages solitaires ou rejoignent d'autres marginaux et optent pour une vie de vagabondages solitaires ou rejoignent d'autres marginaux et exilés pour mener une vie d'aventures.");
+		
+		Caractéristique c = new Caractéristique();
+		
+		caractéristiques.add(c);
+	}
+
+}
+
+
