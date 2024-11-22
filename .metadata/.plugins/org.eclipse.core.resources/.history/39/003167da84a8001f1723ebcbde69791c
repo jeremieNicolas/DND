@@ -28,14 +28,6 @@ public class Gnome extends Race{
 		caractéristiques.add(c);
 		c = new Caractéristique("Alignement","Les gnomes sont généralement attirés par le bien. Ceux qui sont attirés par la loi sont des sages, des ingénieurs, des chercheurs, des érudits, des enquêteurs ou des inventeurs. Ceux qui sont plus attirés par le chaos deviennent ménestrels, arnaqueurs, vagabonds ou bijoutiers spécialisés en bijoux fantaisie. Les gnomes ont bon coeur et même les arnaqueurs sont finalement plus taquins que mal intentionnés.");
 		caractéristiques.add(c);
-		c = new Caractéristique("Taille","Les gnomes mesurent entre 90 et 120 centimètres et pèsent en moyenne 20 kilos. Ils sont de taille Petite.");
-		caractéristiques.add(c);
-		c = new Caractéristique("Vitesse", "La vitesse de base au sol d'un gnome est de 7,50 mètres.");
-		caractéristiques.add(c);
-		c = new Caractéristique("Ruse gnome","Le gnome est avantagé pour tous les jets de sauvegarde d'intelligence, de sagesse et de charisme contre la magie.");
-		caractéristiques.add(c);
-		c = new Caractéristique("Langues","Les gnomes peuvent pareler, lire et écrire le commun et le gnome. La langue gnome utiilise l'alphabet nain. Les gnomes sont renommés pour leurs traités techniques et leurs catalogues de connaissances sur la nature.");
-		caractéristiques.add(c);
 	}
 }
 /*	public DemiElfe()
