@@ -1,0 +1,34 @@
+package Races;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Sangdragon extends Race{
+	
+	List<Caractéristique> listeCaractéristiques;
+	List<String> nomsMasculins;
+	List<String> nomsFéminins;
+	List<String> nomsEnfant;
+	List<String> nomsClan;
+	public Sangdragon()
+	{
+		super.setNom("Sangdragon");
+		super.setDescription("Nés d'un dragon, comme leur nom le proclame, les sangdragons parcourent fièrement un monde qui les accueille avec une incompréhension mêlée de crainte. Façonnés par les dieux draconiques ou par les dragons eux-mêmes, les sangdraggons sont éclos d'oeufs de dragon afin de créer une race unique, combinant le meilleur des dragons et des humanoïdes. Certains sont de fidèles serviteurs des véritables dragons, d'autres forment la piétaille de grandes armées et d'autres encore errent sans vocation. ");
+		nomsMasculins.addAll(List.of("Arjhan", "Balasar","Bharash","Donaar","Ghesh","Heskan","Kriv","Medrash","Méhen","Nadarr","Pandjed","Patrin","Rhogar","Shamash","Shedinn","Tarhun","Torinn"));
+		nomsFéminins.addAll(List.of("Akra","Biri","Daar","Farideh","Harann","Havilar","Jheri","Kava","")); 
+		nomsEnfant.addAll(List.of("Grimpeur","Mordeur-de-Bouclier", "Perce-Oreille","Dévot","Sauteur","Zélé"));
+		nomsClan.addAll(List.of("Clethtinthiallor","Daardendrian", "Delmirev","Drachendandion","Fenkenkabradon","Kepeshkmolik","Kerrhylon","Kimbatuul","Linxakasendalor","Myastan","Nemmonis","Norixius","Ophinshtalajiir","Prexijandilin","Shestendeliath","Turnuroth","Verthisathurgiesh","Yarjerit"));
+		
+		super.caractéristiques = new ArrayList<Caractéristique>();
+		
+	}
+
+}
+/*
+ * public class ElfeSylvestre extends Elfe{
+	List<Caractéristique> listeCaractéristiques;
+	public ElfeSylvestre(){
+		listeCaractéristiques = super.caractéristiques;
+		super.setNom("Elfe sylvestre");
+		Caractéristique c;
+ */
