@@ -15,9 +15,7 @@ public class Tieffelin {
 		listCaractéristiques.add(new Caractéristique("Taille", "Les tieffelins sont de taille et de corpulence comparables aux humains. Ils sont de taille Moyenne."));
 		listCaractéristiques.add(new Caractéristique("Vitesse", "La vitesse de base d'un tieffelin au sol est de 9 mètres."));
 		listCaractéristiques.add(new Caractéristique("Vision dans le noir", "Grâce à son ascendance infernal, le Tieffelin a hérité d'une vision supérieure dans l'obscurité et dans la lumière faible. Dans un rayon de 18 mètres, il peut voir dans l'obscurité comme dans la pénombre et dans la pénombre comme dans la lumière vive. Par contre, il ne distingue pas les couleurs dans l'obscurité, seulement des nuances de gris."));
-		listCaractéristiques.add(new Caractéristique("Résistance infernale", "Le tieffelin est résistant aux dégâts de feu."));
-		listCaractéristiques.add(new Caractéristique("Ascendance infernale","Le tieffelin connait le tour de magie Thaumaturgie. Au niveau 3, le Tieffelin peut lancer une fois le sort Représailles infernales comme sort de niveau 2 grâce à ce trait. Pour pouvoir lancer ce sort à nouveau, il devra faire un repos long. À partir du niveau 5, il peut lancer Ténèbres grâce à ce trait. Il doit toutefois faire un repos long pour relancer ce sort. La caractéristique d'incantation pour ces sorts est le Charisme."));
-		listCaractéristiques.add(new Caractéristique("Langues", "Le tieffelin peut parler, lire et écrire le commun et l'infernal."));
+		
 	}
 }
 

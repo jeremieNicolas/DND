@@ -26,10 +26,18 @@ public class Elfe extends Race {
             ));
 
             // Liste complète combinant les deux
-            List<String> nomsFéminins = new ArrayList<>(List.of("Adrie", "Althaéa", "Anastrianne", "Andraste", "Antinua", "Béthrynne", "Birel", "Caélynn", "Drusilia", "Enna", "Félosial", "Iélénia", "Jelenneth", "Keyleth", "Leshanna", "Lia", "Meriele", "Mialee", "Naivara", "Quélenna", "Quillathe", "Sariel", "Shanairra", "Shava", "Silaqui", "Theirastre", "Thia", "Vadania", "Valanthe", "Xanaphie"));
-
-            List<String> nomsFamille = new ArrayList<>(List.of( "Amakiir (Fleurdegemme)", "Amastacie (Fleurstellaire)", "Galanodel (Murmurelunaire)", "Holimion (Roséedediamant)", "Ilphelkiir (Boutondegemme)", "Liadon (Feuilleargent)", "Méliamne (Pieddechêne)", "Naîlo (Brisenocturne)", "Siannodel (Ruisseaulunaire)", "Xiloscient (Pétald'or)"));
-            		
+            List<String> tousLesNoms = new ArrayList<>();
+            tousLesNoms.addAll(nomsEnfant);
+            tousLesNoms.addAll(nomsMasculins);
+            
+		c = new Caractéristique("Noms d'enfant","Noms d'enfant : Ara, Bryn, Del, Éryn, Faen, Innil, Lael, Mella. Naill, Naéris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall. ");
+		super.caractéristiques.add(c);
+		c = new Caractéristique("Noms masculins", "Adran, Aélar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Énialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Péren, Quarion, Rivardon, Rolen, Soveliss, Thamior, Tharivol, Théren, Varis");
+		super.caractéristiques.add(c);
+		c = new Caractéristique("Noms féminins", "Adrie, Althaéa, Anastrianne, Andraste, Antinua, Béthrynne, Birel, Caélynn, Drusilia, Enna, Félosial, Iélénia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quélenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastre, Thia, Vadania, Valanthe, Xanaphie");
+		super.caractéristiques.add(c);
+		c = new Caractéristique("Noms de famille (traduction en commun)", "Amakiir (Fleurdegemme), Amastacie (Fleurstellaire), Galanodel (Murmurelunaire), Holimion (Roséedediamant), Ilphelkiir (Boutondegemme), Liadon (Feuilleargent), Méliamne (Pieddechêne), Naîlo (Brisenocturne), Siannodel (Ruisseaulunaire), Xiloscient (Pétald'or)");
+		super.caractéristiques.add(c);
 		c = new Caractéristique("Augmentation de caractéristiques","Votre dextérité augmente de 2");
 		super.caractéristiques.add(c);
 		c = new Caractéristique("Âge", "Bien que les elfes atteignent leur maturité physique environ au même âge que les humains, ils considèrent qu'être un adulte dépasse ce simple aspect et prend en compte l'expérience de la vie. Un elfe se déclare généralement adulte vers 100 ans et choisit à ce moment son nom d'adulte. Les elfes peuvent vivre jusqu'à 750 ans.");
