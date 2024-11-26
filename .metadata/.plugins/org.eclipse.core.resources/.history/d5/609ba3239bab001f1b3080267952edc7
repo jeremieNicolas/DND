@@ -10,20 +10,14 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		BlocVie blocVie;
-		IdPersonnage idPersonnage;
-		StatsBase statsBase;
-		Compétences compétences;
-		JetsSauvegarde jetsSauvegarde;
-		FeuillePersonnage fp;
-		
+		IdPersonnage fp;
 		Scanner scan = new Scanner(System.in);
 		Elfe elfe = new Elfe();
 		HautElfe hautElfe = new HautElfe();
-		fp.identification = new IdPersonnage();
-		fp.identification.setNomJoueur("Jérémie");
-		fp.identification.setNomPersonnage("Dalla");
-		fp.identification.setRace(hautElfe);
+		fp = new IdPersonnage();
+		fp.setNomJoueur("Jérémie");
+		fp.setNomPersonnage("Dalla");
+		fp.setRace(hautElfe);
 		
 		verif(fp);
 	}

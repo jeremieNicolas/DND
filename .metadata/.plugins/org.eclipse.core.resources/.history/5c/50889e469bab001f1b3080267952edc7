@@ -20,10 +20,10 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 		Elfe elfe = new Elfe();
 		HautElfe hautElfe = new HautElfe();
-		fp.identification = new IdPersonnage();
-		fp.identification.setNomJoueur("Jérémie");
-		fp.identification.setNomPersonnage("Dalla");
-		fp.identification.setRace(hautElfe);
+		fp = new IdPersonnage();
+		fp.setNomJoueur("Jérémie");
+		fp.setNomPersonnage("Dalla");
+		fp.setRace(hautElfe);
 		
 		verif(fp);
 	}

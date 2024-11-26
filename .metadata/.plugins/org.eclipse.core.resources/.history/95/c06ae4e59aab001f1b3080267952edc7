@@ -10,11 +10,10 @@ public class FeuillePersonnage {
 	int maitrise;
 	List<String> maitrisesEtLangues;
 	int sagessePassive; 
-	BlocVie blocVie;
 	
 	FeuillePersonnage(){}
 	
-	FeuillePersonnage(IdPersonnage id, StatsBase stats, JetsSauvegarde jetsSauvegarde, Compétences compétences, List<String> maitrisesEtLangues, int sagessePassive, BlocVie blocVie)
+	FeuillePersonnage(IdPersonnage id, StatsBase stats, JetsSauvegarde jetsSauvegarde, Compétences compétences, List<String> maitrisesEtLangues, int sagessePassive)
 	{
 		this.identification = id;
 		this.statsBase = stats;
@@ -22,7 +21,6 @@ public class FeuillePersonnage {
 		this.compétences = compétences;
 		this.maitrisesEtLangues = maitrisesEtLangues;
 		this.sagessePassive = sagessePassive;
-		this.blocVie = blocVie;
 	}
 	
 	
