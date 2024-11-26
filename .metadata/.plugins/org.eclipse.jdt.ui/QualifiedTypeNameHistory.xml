@@ -17,4 +17,6 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="Races.Caractéristique"/>
+    <fullyQualifiedTypeName name="Classes.ÉvolutionBarbare"/>
+    <fullyQualifiedTypeName name="FeuillePersonnage.FeuillePersonnage"/>
 </qualifiedTypeNameHistroy>
