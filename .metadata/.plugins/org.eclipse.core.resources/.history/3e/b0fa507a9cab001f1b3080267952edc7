@@ -1,0 +1,29 @@
+package Classes;
+
+import java.util.List;
+
+public abstract class ClasseBase {
+	String nomClasse;
+	String description;
+	
+	public abstract int calculerVieNiveau1();
+	public abstract void calculerVieNiveauxSuperieurs();
+	public abstract void setMaitrises();
+	public void calculerVieNiveauxSuperieurs(int niveau) {
+		// TODO Auto-generated method stub
+		
+	}
+	public int calculerVieNiveauxSuperieurs(int niveau, List<Integer> résultatsDés) {
+		int vie = 0;
+		
+		for(int i = 0; i<résultatsDés.size(); i++)
+		{
+			vie += résultatsDés.get(i);
+		}
+		
+		return vie;
+		// TODO Auto-generated method stub
+		
+	}
+
+}

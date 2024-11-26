@@ -32,24 +32,5 @@ public abstract class ClasseBase {
 	{
 		return this.caracteristiques;
 	}
-	public String getNomClasse() {
-		return nomClasse;
-	}
-	public void setNomClasse(String nomClasse) {
-		this.nomClasse = nomClasse;
-	}
-	public String getDescription() {
-		return description;
-	}
-	public void setDescription(String description) {
-		this.description = description;
-	}
-	public List<Caractéristique> getCaracteristiques() {
-		return caracteristiques;
-	}
-	public void setCaracteristiques(List<Caractéristique> caracteristiques) {
-		this.caracteristiques = caracteristiques;
-	}
-	
 
 }

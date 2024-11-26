@@ -1,8 +1,0 @@
-package FeuillePersonnage;
-
-public class FeuillePersonnage {
-	String nomJoueur;
-	String nomPersonnage;
-	Race race;
-
-}

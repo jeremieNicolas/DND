@@ -8,9 +8,9 @@ public class Barbare extends ClasseBase{
 
 	List<ÉvolutionBarbare> évolutions;
 	
-	public Barbare() {
+	Barbare() {
 	    this.évolutions = new ArrayList<>();
-	    super.nomClasse = "Barbare";
+
 	    évolutions.add(new ÉvolutionBarbare(1, 2, "Rage, défense sans armure", 2, 2));
 	    évolutions.add(new ÉvolutionBarbare(2, 2, "Témérité, sens du danger", 2,2));
 	    évolutions.add(new ÉvolutionBarbare(3, 2, "Voie primitive", 3, 2));

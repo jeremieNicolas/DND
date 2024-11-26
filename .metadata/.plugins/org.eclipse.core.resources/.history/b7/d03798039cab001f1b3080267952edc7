@@ -19,11 +19,10 @@ public class Main {
 		Compétences compétences;
 		JetsSauvegarde jetsSauvegarde;
 		FeuillePersonnage fp = new FeuillePersonnage();
-
+		Barbare barbare;
 		Scanner scan = new Scanner(System.in);
 		Elfe elfe = new Elfe();
 		HautElfe hautElfe = new HautElfe();
-		Barbare barbare = new Barbare();
 		fp.identification = new IdPersonnage();
 		fp.identification.setNomJoueur("Jérémie");
 		fp.identification.setNomPersonnage("Dalla");
@@ -52,12 +51,9 @@ public class Main {
 		System.out.println(fp.identification.getNomPersonnage());
 		System.out.print("Race : ");
 		System.out.println(fp.identification.getRace().getNom());
-		System.out.println("Caractéristiques raciales : ");
+		System.out.println("Caractéristiques : ");
 		fp.identification.getRace().showCaractéristiques();
-		System.out.println("Classe : "); 
-		fp.identification.getClasse().getNomClasse();
-		System.out.println("Caractéristiques de classe : ");
-		fp.identification.getClasse().getInfosClasse();
+		System.out.println
 		
 	}
 	
