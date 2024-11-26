@@ -1,0 +1,10 @@
+package FeuillePersonnage;
+
+public class JetsSauvegarde {
+	Stat force;
+	Stat dexterite;
+	Stat constitution;
+	Stat intelligence;
+	Stat sagesse;
+	Stat charisme; 
+}

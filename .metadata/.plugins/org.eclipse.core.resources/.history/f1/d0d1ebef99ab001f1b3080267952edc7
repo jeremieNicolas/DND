@@ -1,0 +1,24 @@
+package FeuillePersonnage;
+
+public class Compétences {
+	Stat acrobaties;
+	Stat arcanes;
+	Stat athlétisme;
+	Stat discrétion;
+	Stat dressage;
+	Stat escamotage;
+	Stat histoire;
+	Stat intimidation;
+	Stat investigation;
+	Stat médecine;
+	Stat nature;
+	Stat perception;
+	Stat perspicacité;
+	Stat persuasion;
+	Stat religion;
+	Stat représentation;
+	Stat survie;
+	Stat tromperie;
+	
+	
+}

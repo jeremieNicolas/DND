@@ -1,0 +1,14 @@
+package Classes;
+
+public abstract class Évolution {
+	int niveau;
+	int bonusMaitrise;
+	String aptitudes;
+	int nbRages;
+	int bonusRages;
+	
+	public abstract void calculerDéVie();
+	public abstract void calculerVieNiveau1();
+	public abstract void calculerVieNiveauxSuperieurs();
+	public abstract void setMaitrises(); 
+}

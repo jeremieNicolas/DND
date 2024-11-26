@@ -1,0 +1,26 @@
+package Classes;
+
+public abstract class Évolution {
+	int niveau;
+	int bonusMaitrise;
+	String aptitudes;
+	int nbRages;
+	int bonusRages;
+	
+	Évolution(){}
+	
+	Évolution(int niveau, int bonusMaitrise, String aptitudes, int nbRages, int bonusRages)
+	{
+		this.niveau = niveau;
+		this.bonusMaitrise = bonusMaitrise;
+		this.aptitudes = aptitudes;
+		this.nbRages = nbRages;
+		this.bonusMaitrise = bonusMaitrise;
+	}
+	Évolution(int niveau, int bonusMaitrise, String aptitudes)
+	{
+		this.niveau = niveau;
+		this.bonusMaitrise = bonusMaitrise;
+		this.aptitudes = aptitudes;
+	}
+}

@@ -1,0 +1,14 @@
+package FeuillePersonnage;
+
+public class FeuillePersonnage {
+	IdPersonnage identification;
+	
+	FeuillePersonnage(){}
+	
+	FeuillePersonnage(IdPersonnage id)
+	{
+		this.identification = id;
+	}
+	
+	
+}

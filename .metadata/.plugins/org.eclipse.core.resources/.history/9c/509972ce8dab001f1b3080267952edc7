@@ -1,0 +1,57 @@
+package Classes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Barbare extends ClasseBase{
+
+	List<ÉvolutionBarbare> évolutions;
+	
+	Barbare() {
+	    this.évolutions = new ArrayList<>();
+
+	    évolutions.add(new ÉvolutionBarbare(1, 2, "Rage, défense sans armure", 2, 2));
+	    évolutions.add(new ÉvolutionBarbare(2, 2, "Témérité, sens du danger", 2,2));
+	    évolutions.add(new ÉvolutionBarbare(3, 2, "Voie primitive", 3, 2));
+	    évolutions.add(new ÉvolutionBarbare(4, 2, "Amélioration de caractéristiques", 3, 2));
+	    évolutions.add(new ÉvolutionBarbare(5, 3, "Attaque supplémentaire, déplacement rapide", 3, 2));
+	    évolutions.add(new ÉvolutionBarbare(6, 3, "Aptitude de voie", 4, 2));
+	    évolutions.add(new ÉvolutionBarbare(7, 3, "Instinct sauvage", 4, 2));
+	    évolutions.add(new ÉvolutionBarbare(8, 3, "Amélioration de carctéristiques", 4, 2));
+	    évolutions.add(new ÉvolutionBarbare(9, 4, "Critique brutal (1 dé)", 4, 3));
+	    évolutions.add(new ÉvolutionBarbare(10, 4, "Aptitude de voie", 4, 3));
+	    évolutions.add(new ÉvolutionBarbare(11, 4, "Rage implacable", 4, 3));
+	    évolutions.add(new ÉvolutionBarbare(12, 4, "Amélioration de caractéristiques", 5, 3 ));
+	    évolutions.add(new ÉvolutionBarbare(13, 5, "Critique brutal (2 dés)", 5, 3));
+	    évolutions.add(new ÉvolutionBarbare(14, 5, "Aptitude de voie", 5, 3));
+	    évolutions.add(new ÉvolutionBarbare(15, 5, "Rage ininterrompue", 5, 3));
+	    évolutions.add(new ÉvolutionBarbare(16, 5, "Amélioration de caractéristiques", 5, 4));
+	    évolutions.add(new ÉvolutionBarbare(17, 6, "Critique brutal (3 dés)", 6, 4));
+	    évolutions.add(new ÉvolutionBarbare(18, 6, "Puissance indomptable", 6, 4));
+	    évolutions.add(new ÉvolutionBarbare(19, 6, "Amélioration de caractéristiques", 6, 4));
+	    évolutions.add(new ÉvolutionBarbare(20, 6, "ChampionPrimitif", 100, 4)); //illimité
+	   
+	}
+
+
+	@Override
+	public void calculerVieNiveauxSuperieurs() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setMaitrises() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void calculerVieNiveau1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package Classes;
+
+import java.util.List;
+
+public abstract class ClasseBase {
+	String nomClasse;
+	String description;
+	
+	public abstract int calculerVieNiveau1();
+	public abstract void calculerVieNiveauxSuperieurs();
+	public abstract void setMaitrises();
+	public void calculerVieNiveauxSuperieurs(int niveau) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void calculerVieNiveauxSuperieurs(int niveau, List<Integer> résultatsDés) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

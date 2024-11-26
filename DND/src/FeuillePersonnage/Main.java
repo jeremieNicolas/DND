@@ -10,11 +10,11 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		FeuillePersonnage fp;
+		IdPersonnage fp;
 		Scanner scan = new Scanner(System.in);
 		Elfe elfe = new Elfe();
 		HautElfe hautElfe = new HautElfe();
-		fp = new FeuillePersonnage();
+		fp = new IdPersonnage();
 		fp.setNomJoueur("Jérémie");
 		fp.setNomPersonnage("Dalla");
 		fp.setRace(hautElfe);
@@ -22,7 +22,7 @@ public class Main {
 		verif(fp);
 	}
 
-	private static void verif(FeuillePersonnage fp) {
+	private static void verif(IdPersonnage fp) {
 		// TODO Auto-generated method stub
 		System.out.println("---------------------------------------");
 		System.out.print("Nom joueur : ");

@@ -1,0 +1,18 @@
+package FeuillePersonnage;
+
+public class StatsBase {
+	int force;
+	int dexterite;
+	int constitution;
+	int intelligence;
+	int sagesse;
+	int charisme;
+	
+	int modifForce;
+	int modifDexterite;
+	int modifConstitution;
+	int modifIntelligence;
+	int modifSagesse;
+	int modifCharisme;
+	
+}

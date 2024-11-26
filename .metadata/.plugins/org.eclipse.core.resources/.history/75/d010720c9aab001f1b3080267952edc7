@@ -1,0 +1,17 @@
+package FeuillePersonnage;
+
+public class FeuillePersonnage {
+	IdPersonnage identification;
+	StatsBase statsBase;
+	JetsSauvegarde jetsSauvegarde;
+	FeuillePersonnage(){}
+	
+	FeuillePersonnage(IdPersonnage id, StatsBase stats, JetsSauvegarde jetsSauvegarde)
+	{
+		this.identification = id;
+		this.statsBase = stats;
+		this.jetsSauvegarde = jetsSauvegarde;
+	}
+	
+	
+}

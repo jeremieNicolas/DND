@@ -1,0 +1,14 @@
+package Classes;
+
+public abstract class ClasseBase {
+	String nomClasse;
+	String description;
+	
+	public abstract void calculerVieNiveau1();
+	public abstract void calculerVieNiveauxSuperieurs();
+	public abstract void setMaitrises();
+	public void calculerVie() {
+		// TODO Auto-generated method stub
+		
+	} 
+}

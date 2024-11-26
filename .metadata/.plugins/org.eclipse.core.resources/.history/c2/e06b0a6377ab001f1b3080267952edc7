@@ -1,0 +1,34 @@
+package Classes;
+
+import java.util.List;
+
+public class Barbare extends ClasseBase{
+
+	List<ÉvolutionBarbare> évolutions;
+	
+	
+	@Override
+	public void calculerDéVie() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void calculerVieNiveau1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void calculerVieNiveauxSuperieurs() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setMaitrises() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package Classes;
+
+public abstract class ÉvolutionBarbare {
+	int niveau;
+	int bonusMaitrise;
+	String aptitudes;
+	int nbRages;
+	int bonusRages;
+	
+	ÉvolutionBarbare(){}
+	
+	ÉvolutionBarbare(int niveau, int bonusMaitrise, String aptitudes, int nbRages, int bonusRages)
+	{
+		this.niveau = niveau;
+		this.bonusMaitrise = bonusMaitrise;
+		this.aptitudes = aptitudes;
+		this.nbRages = nbRages;
+		this.bonusMaitrise = bonusMaitrise;
+	}
+	ÉvolutionBarbare(int niveau, int bonusMaitrise, String aptitudes)
+	{
+		this.niveau = niveau;
+		this.bonusMaitrise = bonusMaitrise;
+		this.aptitudes = aptitudes;
+	}
+}

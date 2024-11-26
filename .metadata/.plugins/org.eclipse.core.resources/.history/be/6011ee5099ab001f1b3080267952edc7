@@ -1,0 +1,21 @@
+package FeuillePersonnage;
+
+public class JetsSauvegarde {
+	Stat force;
+	Stat dexterite;
+	Stat constitution;
+	Stat intelligence;
+	Stat sagesse;
+	Stat charisme; 
+	
+	JetsSauvegarde(){}
+	JetsSauvegarde(Stat force, Stat dexterite, Stat constitution, Stat intelligence, Stat sagesse, Stat charisme)
+	{
+		this.force = force;
+		this.dexterite = dexterite;
+		this.constitution = constitution;
+		this.intelligence = intelligence;
+		this.sagesse = sagesse;
+		this.charisme = charisme;
+	}
+}
