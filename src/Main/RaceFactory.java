@@ -112,6 +112,8 @@ public class RaceFactory {
 			caracteristiquesRace.add("Brave : L'halfelin est avantagé sur les jets de sauvegarde contre la terreur.");
 			caracteristiquesRace.add("Agilité halfeline : L'halfelin peut traverser n'importe quel espace occupé par une créature d'au moins une catégorie de taille de moins que lui.");
 			caracteristiquesRace.add("Langues : L'halfelin peut parler, lire et écrire le commun et l'halfelin. Bien que la langue des halfelins n'ait rien d'un secret, ils n'aiment pas l'apprendre aux autres. Ils écrivent très peu et n'ont donc pas énormément de livres. Leur tradition orale est par contre très riche. Presque tous les halfelins parlent le commun, ce qui leur permet de converser avec les gens qui habitent sur les mêmes terres qu'eux ou dont ils traversent les terres.");
+		case "Humain": 
+			caracteristiquesRace.add("Augmentation de caractéristiques : Toutes les caractéristiques augmentent de 1. ");
 			
 		}
 	return caracteristiquesRace;
