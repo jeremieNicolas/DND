@@ -114,9 +114,16 @@ public class RaceFactory {
 			caracteristiquesRace.add("Langues : L'halfelin peut parler, lire et écrire le commun et l'halfelin. Bien que la langue des halfelins n'ait rien d'un secret, ils n'aiment pas l'apprendre aux autres. Ils écrivent très peu et n'ont donc pas énormément de livres. Leur tradition orale est par contre très riche. Presque tous les halfelins parlent le commun, ce qui leur permet de converser avec les gens qui habitent sur les mêmes terres qu'eux ou dont ils traversent les terres.");
 		case "Humain": 
 			caracteristiquesRace.add("Augmentation de caractéristiques : Toutes les caractéristiques augmentent de 1. ");
-			
+			caracteristiquesRace.add("Âge : Les humaisn deivennent adultes à fin de l'adolescence et vivent moins d'un siècle.");
+			caracteristiquesRace.add("Taille : Les humains ont des tailles et des carrures variées. Ils peuvent faire 1,50 mètres comme plus de 1,80 mètres. Les humaisn sont considérés comme de taille moyenne peu importe la taille, le poids ou la carrure. ");
+			caracteristiquesRace.add("Vitesse : La vitesse de base d'un humain au sol est de 9 mètres.");
+			caracteristiquesRace.add("Langues : Vous pouvez parler, lire et écrire le commun et une autre langue au choix. Les humains apprennent généralement la langue des peuples qu'ils fréquentent, même s'il s'agit parfois d'obscurs dialectes. Ils aiment parsemer leur langue d'expressions empruntés d'Autres races : des jurons orcs, des expressions musicales elfiques, des citations militaires naines, etc.");
+			List<String> Ethnies = new ArrayList<String>();
+
 		}
 	return caracteristiquesRace;
 		
+	}
+
 	}
 }
