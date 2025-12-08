@@ -150,6 +150,24 @@ public class RaceFactory {
 			break;
 		case "Damarien" : 
 			caracteristiquesEthniques.add("Les Damariens occupent principalement le nord-ouest de Féérune. Ils sont de taille et de corpulence moyennes, leur peau allant du pâle au bronzé. Ils ont des cheveux châtains ou bruns, mais la couleur de leurs yeux varie beaucoup, le marron restant le plus répandu.");
+			caracteristiquesEthniques.add("Noms masculins : Bor, Fodel, Glar, Grigor, Igan, Ivor, Kosef, Mival, Orel, Pavel, Sergor");
+			caracteristiquesEthniques.add("Noms féminins : Aléthre, Kara, Katernine, Mara, Natali, Olma, Tana, Zora");
+			caracteristiquesEthniques.add("Noms de famille : Bersk, Chernin, Dotsk, Kulenov, Marsk, Németsk, Shemov, Starag");
+			break;
+		case "Illuskien":
+			caracteristiquesEthniques.add("Les Illuskiens sont des gens de grande taille à la peau claire et aux yeux bleus ou gris acier. La plupart ont des cheveux noirs de jais, mais ceux qui vivent aux confins nord-ouest ont des chevelures blondes, rousses ou châtain clair.");
+			caracteristiquesEthniques.add("Noms masculins : Andre, Blath, Bran, Frath, Gerth, Landre, Luth, Malcre, Stor, Taman, Urth");
+			caracteristiquesEthniques.add("Noms féminins : Amafrey, Bèthe, Cefrey, Kethra, Mara, Olga, Silifrey, Westra");
+			caracteristiquesEthniques.add("Noms de famille : Cornecorneille, Manque, Porteur, Rivvent, Souffletempête, Vifbois");
+			break;
+		case "Mulien":
+			caracteristiquesEthniques.add("Les Muliens prédominent sur les rives sud et sud-est de la mer Intérieure. Ils sont généralement grands et minces, dotés d'une peau ambrée et d'yeux noisette ou marron. Leurs cheveux vont du brun au châtain foncé, mais, sur les terres où cette ethnie est majoritaire, les nobles et bien d'autres muliens se rasent le crâne.");
+			caracteristiquesEthniques.add("Noms masculins : Aoth, Bareris, Ehput-Ki, Kethoth, Mumed, Ramas, So-Kehur, Thazar-De, Urhur");
+			caracteristiquesEthniques.add("Noms féminins : Arizima, Chathi, Nephis, Nulara, Murithi, Sefris, Thola, Umara, Zolis");
+			caracteristiquesEthniques.add("Noms de famille : Ankhalab, Anskuld, Fézim, Hahpet, Nathandem, Sepret, Uuthrakt");
+			break;
+		case "Rashémi":
+			
 			
 		}
 		return caracteristiquesEthniques;
