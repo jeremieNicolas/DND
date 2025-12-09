@@ -31,5 +31,11 @@ public class Main {
 		
 		switch(classe)
 		{}
+		switch(race)
+		{}
+		switch(historique)
+		{
+		
+		}
 	}	
 }
